@@ -1,12 +1,13 @@
 import React from 'react';
-//import ReactDOM from 'react-dom';
-//import Navbar from 'react-bootstrap/Navbar'
-//import Nav from 'react-bootstrap/Nav'
-import NavBarfc from './Components/NavBar'
+import NavBarfc from './Components/NavBar';
+import ItemListContainer from './Components/itemListContainer';
 
 function App() {
     return (
+        <>
         <NavBarfc></NavBarfc>
+        <ItemListContainer Titulo="Titulo enviado por props " />
+        </>
     );
 }
 export default App;
